@@ -10,3 +10,5 @@ The input for the network is 4 chords concatenated together, i.e. a 1x96 array.
 The network is trained on this input, and a desired output which is just the next chord in a chorale.
 
 This script makes use of NN.py (and Neuron.py), from: https://github.com/abrichardson00/Neural-Network.
+
+Requirements: numpy, mido
